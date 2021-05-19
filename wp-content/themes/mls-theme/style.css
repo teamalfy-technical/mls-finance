@@ -1,0 +1,768 @@
+/*
+    Theme Name: Mls Finance
+    Author: Doreen Ntumy - teamalfy.com
+    Version: 1.0
+*/
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-size: 15px; */
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 1600px;
+    margin: 0 auto; */
+}
+
+nav{
+    background-color: transparent !important;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* height:85px; */
+
+}
+
+header{
+    background: url('./images/bg-Image.svg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    background-color: #cccccc;
+}
+.navbar{
+    padding: .5rem .5rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size:14px;
+    color: #373E36;   
+    font-weight: 600; 
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+button:focus{
+    outline: transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #CCD408; 
+    font-weight: normal;
+    
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #CCD408;
+    font-weight: normal;
+    
+}
+
+.navbar-light .navbar-nav .nav-link a:active{
+    color: #CCD408;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+/* section-1 */
+.section-1{
+    background-color: #CCD408;
+}
+
+.mls-card{
+    width: auto;
+    height: auto;
+    padding: 1rem 1rem;
+    background-color: #ffffff;
+    border-radius: .5rem;
+}
+.icon{
+    background-color: #ECECEB;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 5rem;
+    /* margin: 0 auto;
+    padding: 0 auto; */
+}
+.icon .fa{
+    color: #373E36;
+
+}
+
+.section1-right{
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+.section1-right h2{
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.btn-warning{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+}
+
+.section-2 img{
+    width: 100%;
+}
+
+.section2-text{
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+.section2-text p{
+    line-height: 39px;
+}
+.btn-appointment{
+    background-color: #373E36;
+    color: #ffffff;
+    width: 15rem;
+    height: 4rem;
+}
+.btn-appointment .round{
+    padding: .4rem;
+    border: 1px solid #CCD408;
+    border-radius: 5rem;
+}
+.btn-appointment .far{
+    color: #CCD408;
+}
+.btn-call{
+    background-color: #373E36;
+    color: #ffffff;
+    width: 15rem;
+    height: 4rem;
+}
+.btn-call .round{
+    padding: .4rem;
+    border: 1px solid #CCD408;
+    border-radius: 5rem;
+}
+.btn-call .fas{
+    color: #CCD408;
+}
+
+.calculator-section{
+    background-color: #CCD408;
+}
+
+.btn-calc{
+    background-color: #373E36;
+    color: #ffffff;
+    width: 20rem;
+}
+
+.btn-calc-light{
+    background-color: #D8D8D8;
+    color: #8C948C; 
+    width: 20rem;
+}
+
+.pillars-section img{
+    width: 100%;
+}
+
+.pillars-section .rectangle{
+    width: 100%;
+    height: 5rem;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.education, .expertise, .good-listener{
+    border-right: 3px solid #CCD408;
+}
+
+.relationship, .timely, .communication{
+    border-right: 3px solid #CCD408;
+}
+
+.pillar-list h6 a{
+    color: rgba(151, 151, 151, 1);
+    text-decoration: none;
+}
+
+.pillar-list h6 a:hover{
+    color: rgba(204, 212, 8, 1);
+}
+
+.customer-report .testimonial{
+    border: 1px solid #CCD408;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.testimonial .profile img{
+    width: 65px;
+    border-radius: 5rem;
+    height: 65px;
+    object-fit: cover;
+}
+
+.property-investment{
+    background-color: #CCD408;
+}
+
+.property-investment img{
+    width: 100%;
+}
+
+.property-investment .ebook{
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+
+.articles img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 73px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    /* -webkit-backface-visibility: visible; */
+    transition: opacity .2s ease;
+    border-radius: 0rem;
+}
+
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+    position: absolute;
+    left: 38rem;
+    bottom: 0rem;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #CCD408;
+}
+
+.investment img{
+    width: 100%;
+    border-radius: .5rem;
+}
+.top-left{
+    border-bottom: 1px dashed;
+    border-right: 1px dashed;
+}
+.top-right{
+    border-bottom: 1px dashed;
+}
+.bottom-left{
+    border-right: 1px dashed;
+}
+
+.contact-us{
+    background-color: #CCD408;
+}
+.contact-us img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section img{
+    background-position: 0% 0px;
+    background-size: cover;
+}
+
+.form-control-1{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-outline{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 50%;
+}
+.carousel-item{
+    position: relative !important;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;   
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4); 
+}
+.text-overlay{
+    position: absolute;
+    left: 2rem;
+    top: 3rem
+}
+
+.scroll-down{
+    position: absolute;
+    top: 30rem;
+    left: 40rem;
+}
+.scroll-down .fa{
+    color: #ffffff;
+    
+}
+.text-overlay h1{
+    color:#ffffff;
+    font-size: 1.3rem;
+}
+.about-us {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.whatwedo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.heading {
+    margin-top: 2rem;
+}
+hr {
+    border: 2px solid #058b3c;
+}
+.about-text{
+    line-height: 2rem;
+}
+.about-grid{
+    line-height: 2rem;
+}
+.left-image img{
+    width: 100%;
+}
+.icons-text img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: .5rem;
+
+}
+
+.whatwedo-box {
+    margin-top: 3rem;
+}
+
+
+.hospitals-box {
+    height: 10rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+.hospitals-box:hover{
+    background-color: black;
+    color: white;
+}
+.hospitals-box .inner-content{
+    padding-top: 2.5rem;
+    text-align: center;
+}
+.hospitals-box .inner-content img{
+    width: 2rem;
+    height: 2rem;
+}
+.contact{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+}
+
+.contatc-us{
+    margin-top: 2rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 20rem;
+}
+
+.container-width{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+footer ul{
+    padding-inline-start: 0;
+
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    color: rgba(0,0,0,.7);
+    font-size:14px;
+
+}
+footer a{
+    color: rgba(0,0,0,.7);
+    font-size:14px;
+}
+footer a:hover{
+    color:#000000;
+}
+.fw-600{
+    font-weight: 600;
+}
+
+.footer-items {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    background-color: #ffffff;
+    /* margin-top: 5rem; */
+}
+
+.sub-footer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #ffffff;
+}
+.sub-footer a{
+    color: #ffffff;
+}
+.sub-footer a:hover{
+    color: #ffffffb3 !important;
+}
+
+
+
+/* page-projects styles */
+
+.project-hospital{
+   background-color: #17195A;
+   color: #ffffff;
+}
+.hospital-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.projects-images img{
+    width: 100%;
+    
+}
+.residential-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.factories-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.office-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.project-factories{
+    background-color: #0E5969;
+    color: #ffffff;
+ }
+
+ /* page-group-styles */
+    .group-icons img{
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+ }
+
+.px{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.wpcf7-submit{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    border-radius: .25rem;
+    height: 45px;
+    width: -webkit-fill-available;
+}
+.wpcf7-form-control .wpcf7-textarea{
+    height: 126px;
+}
+
+/* media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+   
+    .text-overlay{
+        position: absolute;
+        top: 9rem;   
+        left: 6rem;
+    }
+    .text-overlay h1{
+        
+        font-size: 1.7rem;
+    }
+    
+    .heading{
+        margin-top: 3rem;
+    }
+    .projects-images img{
+        height: 15rem;
+        
+    }
+   
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* .hero-section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    } */
+   .navbar{
+        padding: .5rem 1rem;
+   }
+    .heading {
+        margin-top: 2rem;
+    }
+    .hero-section img{
+        background-position: 0% 0px;
+        background-size: cover;
+        width: 100%;
+        height: 30rem;
+        background-repeat: no-repeat;
+        
+    }
+    .text-overlay h1{
+        color:#ffffff;
+        font-size: 1.5rem !important;
+    }
+    .about-us{
+        margin-top: 4.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .whatwedo{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contact {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .footer-items{
+        padding-top: 4rem;
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+        padding-right: 3rem;
+           
+    }
+    .sub-footer {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .hospital-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .residential-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .factories-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .office-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .hospitals-box{
+        width: 18rem;
+        height: 10rem;
+        border: 1px solid black;
+        margin-bottom: 0;
+        
+    }
+    .px{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    
+    }
+    
+    .map iframe{
+        width: 100%;
+        height: 25rem;
+    }
+    .footer-padding{
+        padding-left: 5rem;
+    }
+    .projects-images img{
+        width: 100%;
+        /* height: 18rem; */
+    }
+}
+  
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    footer .navbar-brand {
+        margin-left: -3rem;
+        margin-top: -1.5rem;
+    }
+    .text-overlay h1{
+        font-size: 2rem !important;
+    }
+    .text-overlay{
+        top: 6rem;   
+        left: 8rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 35px;
+    }
+    .navbar-expand-lg .first-item{
+        margin-left: 32px ;
+    }
+
+    .about-img{
+        padding-top: 5rem;
+    }
+    .whatwedo-box {
+        margin-top: 4rem;
+    }
+    .hospital-container{
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+  
+    .residential-container{
+        padding-bottom: 5rem;
+    }
+    .factories-container{
+        padding-bottom: 5rem;
+
+    } 
+    .office-container{
+        padding-bottom: 5rem;
+    }
+
+    .owl-theme .owl-controls {
+        margin-top: 15px;
+        
+    }
+
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar {
+        padding: .5rem .5rem;
+    }
+    
+    .hero-section img{
+        background-position: 0% 0px;
+        background-size: cover;
+        width: 100%;
+        height: 40rem;
+        background-repeat: no-repeat;   
+    }
+    .text-overlay h1{
+        font-size: 2.5rem !important;
+    }
+    .text-overlay{
+        top: 9rem;
+        left: 6rem;
+        right: 1rem
+    }
+    .px{
+        padding-left: 3rem;
+        padding-right:3rem;
+    }
+    .group-icons img{
+        padding-top: 3rem;
+    }
+    .about-us{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .about-img{
+        padding-top: 4rem;
+    }
+
+    .whatwedo{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .contact {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .hospital-container{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+     .residential-container{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-bottom: 3.4rem;
+    }
+    .factories-container{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-bottom: 4rem;
+
+    }
+    .office-container{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-bottom: 4rem;
+
+    }
+    .owl-theme .owl-controls {
+       display: none !important;
+        
+    }
+    .footer-items{
+        padding-left: 6rem;
+        padding-right: 6rem;      
+    }
+    .sub-footer {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+  
+}
