@@ -24,13 +24,29 @@ nav{
 
 }
 
+.navbar-brand img{
+    width: 10rem;
+}
+
+
 header{
-    background: url('./images/bg-Image.svg');
+    background: url(./images/bg-Image.svg);
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 45rem;
-    background-color: #cccccc;
+    background-color: #D8E1E5;
+
+}
+.hero-section .btn-outline{
+    background-color: #CCD408;
+    color:#000;
+    width: 8rem;
+    position: absolute;
+    left: 17em;
+}
+.overlay{
+    background-color: #00000075;
+    color: #ffffff;
 }
 .navbar{
     padding: .5rem .5rem;
@@ -77,9 +93,9 @@ button:focus{
     border-radius: .5rem;
 }
 .icon{
-    background-color: #ECECEB;
+    /* background-color: #ECECEB;
     width: 11rem;
-    height: 4rem;
+    height: 4rem; */
     border-radius: 5rem;
     /* margin: 0 auto;
     padding: 0 auto; */
@@ -88,9 +104,12 @@ button:focus{
     color: #373E36;
 
 }
+.tweet-icon .fab{
+    color: #CCD408;
+}
 
 .section1-right{
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-left: 6rem;
 }
 .section1-right h2{
@@ -261,6 +280,9 @@ button:focus{
     width: 100%;
 }
 
+.socials .fab{
+    color: #000000;
+}
 
 
 
@@ -280,6 +302,8 @@ button:focus{
 
 
 
+
+/* 
 .hero-section img{
     background-position: 0% 0px;
     background-size: cover;
@@ -399,7 +423,7 @@ hr {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #ffffff;
-}
+} */
 
 footer{
     max-width: 1600px;
@@ -421,6 +445,7 @@ footer ul li a{
 footer a{
     color: rgba(0,0,0,.7);
     font-size:14px;
+    text-decoration: none;
 }
 footer a:hover{
     color:#000000;
@@ -452,61 +477,8 @@ footer a:hover{
 
 
 
-/* page-projects styles */
 
-.project-hospital{
-   background-color: #17195A;
-   color: #ffffff;
-}
-.hospital-container{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-}
-.projects-images img{
-    width: 100%;
-    
-}
-.residential-container{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.factories-container{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.office-container{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.project-factories{
-    background-color: #0E5969;
-    color: #ffffff;
- }
-
- /* page-group-styles */
-    .group-icons img{
-        width: 100%;
-        padding-left: 3rem;
-        padding-right: 3rem;
- }
-
-.px{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.wpcf7-submit{
+/* .wpcf7-submit{
     background-color: #000000;
     color: #ffffff;
     border-color: #000000;
@@ -516,7 +488,7 @@ footer a:hover{
 }
 .wpcf7-form-control .wpcf7-textarea{
     height: 126px;
-}
+} */
 
 /* media queries */
 
@@ -524,62 +496,37 @@ footer a:hover{
 @media (min-width: 576px) { 
    
    
-    .text-overlay{
-        position: absolute;
-        top: 9rem;   
-        left: 6rem;
-    }
-    .text-overlay h1{
-        
-        font-size: 1.7rem;
-    }
     
-    .heading{
-        margin-top: 3rem;
-    }
-    .projects-images img{
-        height: 15rem;
-        
-    }
    
 }
   
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /* .hero-section{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    } */
-   .navbar{
-        padding: .5rem 1rem;
-   }
-    .heading {
-        margin-top: 2rem;
+
+    .navbar-brand img{
+        width: 100%
     }
-    .hero-section img{
-        background-position: 0% 0px;
+    .hero-section h1{
+        font-size: 55px;
+    }
+    .hero-section .btn-outline{
+        background-color: #CCD408;
+        color:#000;
+        width: 8rem;
+        position: absolute;
+        left: 31em;
+    }
+    header{
+        background: url('./images/bg-Image.svg');
+        background-repeat: no-repeat, repeat;
         background-size: cover;
-        width: 100%;
-        height: 30rem;
-        background-repeat: no-repeat;
-        
+        background-position: center;
+        height: 45rem;
+        background-color: #D8E1E5;
     }
-    .text-overlay h1{
-        color:#ffffff;
-        font-size: 1.5rem !important;
-    }
-    .about-us{
-        margin-top: 4.5rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .whatwedo{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .contact {
-        padding-left: 3rem;
-        padding-right: 3rem;
+    .overlay{
+        background-color: transparent;
+        color: #373E36;
     }
     .footer-items{
         padding-top: 4rem;
@@ -592,170 +539,27 @@ footer a:hover{
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    .hospital-container{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .residential-container{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .factories-container{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .office-container{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .hospitals-box{
-        width: 18rem;
-        height: 10rem;
-        border: 1px solid black;
-        margin-bottom: 0;
-        
-    }
-    .px{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 4rem;
-    
-    }
-    
-    .map iframe{
-        width: 100%;
-        height: 25rem;
-    }
+
     .footer-padding{
         padding-left: 5rem;
     }
-    .projects-images img{
-        width: 100%;
-        /* height: 18rem; */
-    }
+   
 }
   
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    footer .navbar-brand {
+    /* footer .navbar-brand {
         margin-left: -3rem;
         margin-top: -1.5rem;
-    }
-    .text-overlay h1{
-        font-size: 2rem !important;
-    }
-    .text-overlay{
-        top: 6rem;   
-        left: 8rem;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 35px;
-    }
-    .navbar-expand-lg .first-item{
-        margin-left: 32px ;
-    }
-
-    .about-img{
-        padding-top: 5rem;
-    }
-    .whatwedo-box {
-        margin-top: 4rem;
-    }
-    .hospital-container{
-        padding-bottom: 5rem;
-        padding-top: 5rem;
-    }
-  
-    .residential-container{
-        padding-bottom: 5rem;
-    }
-    .factories-container{
-        padding-bottom: 5rem;
-
-    } 
-    .office-container{
-        padding-bottom: 5rem;
-    }
-
-    .owl-theme .owl-controls {
-        margin-top: 15px;
-        
-    }
+    } */
+    
+   
 
 }
   
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .navbar {
-        padding: .5rem .5rem;
-    }
     
-    .hero-section img{
-        background-position: 0% 0px;
-        background-size: cover;
-        width: 100%;
-        height: 40rem;
-        background-repeat: no-repeat;   
-    }
-    .text-overlay h1{
-        font-size: 2.5rem !important;
-    }
-    .text-overlay{
-        top: 9rem;
-        left: 6rem;
-        right: 1rem
-    }
-    .px{
-        padding-left: 3rem;
-        padding-right:3rem;
-    }
-    .group-icons img{
-        padding-top: 3rem;
-    }
-    .about-us{
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-    .about-img{
-        padding-top: 4rem;
-    }
-
-    .whatwedo{
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-    .contact {
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-    .hospital-container{
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-     .residential-container{
-        padding-left: 6rem;
-        padding-right: 6rem;
-        padding-bottom: 3.4rem;
-    }
-    .factories-container{
-        padding-left: 6rem;
-        padding-right: 6rem;
-        padding-bottom: 4rem;
-
-    }
-    .office-container{
-        padding-left: 6rem;
-        padding-right: 6rem;
-        padding-bottom: 4rem;
-
-    }
-    .owl-theme .owl-controls {
-       display: none !important;
-        
-    }
     .footer-items{
         padding-left: 6rem;
         padding-right: 6rem;      

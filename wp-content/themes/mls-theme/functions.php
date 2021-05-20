@@ -1,49 +1,49 @@
 <?php
 
-function africabp_files(){
-    wp_enqueue_style('africabp_main_styles',get_stylesheet_uri());
+// function africabp_files(){
+//     wp_enqueue_style('africabp_main_styles',get_stylesheet_uri());
 
-}
+// }
 
-add_action('wp_enqueue_scripts','africabp_files');
+// add_action('wp_enqueue_scripts','africabp_files');
 
 
-function abp_post_types(){
-    register_post_type('slider', array(
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
-        'public' => true,
-        'labels' => array(
-            'name' => 'Slider',
-            'add_new_item' => 'Add New SLider',
-            'edit_item' => 'Edit Slider',
-            'all_items' => 'All Sliders'
-        ),
-        'menu_icon' => 'dashicons-location'
-    ));
-    register_post_type('kath', array(
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
-        'public' => true,
-        'labels' => array(
-        'name' => 'Kath',
-        'add_new_item' => 'Add New kath Hospital',
-        'edit_item' => 'Edit kath Hospital',
-        'all_items' => 'All kath Hospitals'
-        ),
-        'menu_icon' => 'dashicons-location'
-    ));
-    register_post_type('dodowa', array(
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
-        'public' => true,
-        'labels' => array(
-        'name' => 'Dodowa',
-        'add_new_item' => 'Add New dodowa Hospital',
-        'edit_item' => 'Edit dodowa Hospital',
-        'all_items' => 'All dodowa Hospitals'
-        ),
-        'menu_icon' => 'dashicons-location'
-    ));
-}
-add_action('init', 'abp_post_types');
+// function abp_post_types(){
+//     register_post_type('slider', array(
+//         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+//         'public' => true,
+//         'labels' => array(
+//             'name' => 'Slider',
+//             'add_new_item' => 'Add New SLider',
+//             'edit_item' => 'Edit Slider',
+//             'all_items' => 'All Sliders'
+//         ),
+//         'menu_icon' => 'dashicons-location'
+//     ));
+//     register_post_type('kath', array(
+//         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+//         'public' => true,
+//         'labels' => array(
+//         'name' => 'Kath',
+//         'add_new_item' => 'Add New kath Hospital',
+//         'edit_item' => 'Edit kath Hospital',
+//         'all_items' => 'All kath Hospitals'
+//         ),
+//         'menu_icon' => 'dashicons-location'
+//     ));
+//     register_post_type('dodowa', array(
+//         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+//         'public' => true,
+//         'labels' => array(
+//         'name' => 'Dodowa',
+//         'add_new_item' => 'Add New dodowa Hospital',
+//         'edit_item' => 'Edit dodowa Hospital',
+//         'all_items' => 'All dodowa Hospitals'
+//         ),
+//         'menu_icon' => 'dashicons-location'
+//     ));
+// }
+// add_action('init', 'abp_post_types');
 
 // @ini_set( 'upload_max_size' , '400M' );
 // @ini_set( 'post_max_size', '400M');

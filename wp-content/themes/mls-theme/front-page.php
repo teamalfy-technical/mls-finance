@@ -15,44 +15,47 @@
  */
 /* Template Name: Home */
 get_header();?>
-    <div class="container">
-        <div class="hero-section ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5 pt-5 mt-5">
-                        <h1>MLS can help you get the right home loans</h1>
-                        <p>With low interet rates, now is a great time to broker with MLS Finance</p>
-                        <div class="pt-3">
-                            <h6 class="text-center fw-600">book a free consultation today</h6>
-                            <form action="">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6 px-0 mx-0 ">
-                                        <input type="text" class="form-control " placeholder="Your name" name="firstName" id="inputFirstName" >
-                                    </div>
-                                    <div class="form-group col-md-6 px-0 mx-0">
-                                        <input type="tel" class="form-control" placeholder="Number" name="phoneNumber" id="inputFirstName" >
-                                    </div>
+        <div class="container">
+            <div class="hero-section ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 pt-3 mt-md-5">
+                            <h1>MLS can help you get the right home loans</h1>
+                            <p>With low interet rates, now is a great time to broker with MLS Finance</p>
+                            <div class="pt-3">
+                                <div class="d-flex justify-content-center pb-2">
+                                    <p class="pt-3 me-4 fw-600">Book a consultation today</p>
+                                    <img src="<?php echo get_theme_file_uri('./images/phone-call 1.svg'); ?>" alt="">
                                 </div>
-                                <div class="d-flex">
-                                    <input type="email" class="form-control form-control-1" name="email" id="email" >
-                                    <button class="btn btn-outline" type="submit" style="background-color: #CCD408; color:#000;">Book Now</button>
-                                </div>
-                            </form>
+                                <form action="">
+                                    <div class="form-row d-flex">
+                                        <div class="form-group col-md-6 px-0 mx-0 ">
+                                            <input type="text" class="form-control " placeholder="Your name" name="firstName" id="inputFirstName" >
+                                        </div>
+                                        <div class="form-group col-md-6 px-0 mx-0">
+                                            <input type="tel" class="form-control" placeholder="Number" name="phoneNumber" id="inputFirstName" >
+                                        </div>
+                                    </div>
+                                    <div class="d-flex pt-2 mb-5">
+                                        <input type="email" class="form-control" placeholder="Email address" name="email" id="email" >
+                                        <button class="btn btn-outline" type="submit">Book Now</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
+            
             </div>
-           
         </div>
-    </div>
-    
+    </div> <!-- overlay ends here -->
 </header>
     <div class="section-1 py-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <div class="mls-card d-flex">
-                        <div class="icon text-center mr-3">
+                        <div class="icon text-center me-3">
                             <i class="fa fa-home fa-2x pt-3"></i>
                         </div>
                         <div class="residential-lending">
@@ -63,7 +66,7 @@ get_header();?>
                         </div>
                     </div>
                     <div class="mls-card d-flex mt-3">
-                        <div class="icon text-center mr-3">
+                        <div class="icon text-center  me-3">
                             <i class="far fa-chart-bar"></i>
                         </div>
                         <div class="residential-lending">
@@ -74,7 +77,7 @@ get_header();?>
                         </div>
                     </div>
                     <div class="mls-card d-flex mt-3">
-                        <div class="icon text-center mr-3">
+                        <div class="icon text-center  me-3">
                             <i class="fa fa-home fa-2x pt-3"></i>
                         </div>
                         <div class="residential-lending">
@@ -83,7 +86,7 @@ get_header();?>
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <div class="section1-right">
                         <h2>Go straight to MLS
                         Finance</h2>
@@ -96,15 +99,15 @@ get_header();?>
         </div>
     </div>  
     <div class="section-2 ">
-        <div class="container-width">
+        <div class="container">
             <div class="row">
-                <div class="col-5 section2-text">
+                <div class="col-12 col-md-5 section2-text">
                     <h2>MLS is here to help</h2>
                     <p>Experience the MLS broker difference, we take out the legwork and we will fit into your schedule</p>
                     <button class="btn btn-appointment mb-3"><a class="round" href=""><i class="far fa-calendar-alt"></i></a>Book Appointment</button>
                     <button class="btn btn-call"><a class="round" href=""><i class="fas fa-phone"></i></a>Give us a call today</button>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                    <img  src="<?php echo get_theme_file_uri('./images/img.svg'); ?>" alt="">
                 </div>
             </div>
@@ -132,11 +135,11 @@ get_header();?>
     <div class="pillars-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <h2>What makes us different?</h2>
                     <p class="fw-600">The 8 pillars of MLS Finance</p>
                     <div class="pillar-list">
-                        <div class="rectangle d-flex align-items-center px-3">
+                        <div class="rectangle d-flex flex-column flex-md-row align-items-center px-3">
                             <div class="education px-5">
                                 <h6 class=""><a href="">Education</a></h6>
                             </div>
@@ -150,7 +153,7 @@ get_header();?>
                                 <h6 class=""><a href="">Transparent</a></h6>
                             </div>
                         </div>
-                        <div class="rectangle d-flex align-items-center mt-5 px-3">
+                        <div class="rectangle d-flex flex-column flex-md-row align-items-center mt-5 px-3">
                             <div class="relationship px-5">
                                 <h6 class=""><a href="">Relationship</a></h6>
                             </div>
@@ -172,8 +175,8 @@ get_header();?>
 
                     </div>
                 </div>
-                <div class="col-4">
-                    <img src="<?php echo get_theme_file_uri('./images/img-3.svg'); ?>" alt="">
+                <div class="col-12 col-md-4">
+                    <img src="<?php echo get_theme_file_uri('./images/Img-3.svg'); ?>" alt="">
                 </div>
             </div>
         </div>
@@ -183,39 +186,39 @@ get_header();?>
             <div class="text-center py-5">
                 <h2>Customers are loving MLS Finance</h2>
             </div>
-            <div class="d-flex justify-content-around">
-                <div class="testimonial mr-3">
+            <div class="d-flex flex-column flex-md-row justify-content-around">
+                <div class="testimonial me-3">
                     <div class="d-flex justify-content-between">
                         <div class="profile">
                             <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
                         </div>
                         <div class="name">
-                            <h4>Jonathan Taylor</h4>
+                            <h4 class="fw-600">Jonathan Taylor</h4>
                             <p>CEO at Creativex</p>
                         </div>
                         <div class="tweet-icon">
-                            <span> <i class="fa fa-twiiter "> </i></span>
+                            <span> <i class="fab fa-twitter fa-2x "> </i></span>
                         </div>
                     </div>
                     <div class="text pt-3">
-                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span>@Mls Finance</span></p>
+                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span style="color:#CCD408">@Mls Finance</span></p>
                     </div>
                 </div>
-                <div class="testimonial mr-3">
+                <div class="testimonial me-3">
                     <div class="d-flex justify-content-between">
                         <div class="profile">
                             <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
                         </div>
                         <div class="name">
-                            <h4>Jonathan Taylor</h4>
+                            <h4 class="fw-600">Jonathan Taylor</h4>
                             <p>CEO at Creativex</p>
                         </div>
                         <div class="tweet-icon">
-                            <span> <i class="fa fa-twiiter "> </i></span>
+                            <span> <i class="fab fa-twitter fa-2x"> </i></span>
                         </div>
                     </div>
                     <div class="text pt-3">
-                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span>@Mls Finance</span></p>
+                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span style="color:#CCD408">@Mls Finance</span></p>
                     </div>
                 </div>
                 <div class="testimonial">
@@ -224,30 +227,30 @@ get_header();?>
                             <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
                         </div>
                         <div class="name">
-                            <h4>Jonathan Taylor</h4>
+                            <h4 class="fw-600">Jonathan Taylor</h4>
                             <p>CEO at Creativex</p>
                         </div>
                         <div class="tweet-icon">
-                            <span> <i class="fa fa-twiiter "> </i></span>
+                            <span> <i class="fab fa-twitter fa-2x"> </i></span>
                         </div>
                     </div>
                     <div class="text pt-3">
-                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span>@Mls Finance</span></p>
+                        <p>OMG! I cannot believe that I have got a brand new residential home after getting <span style="color:#CCD408">@Mls Finance</span></p>
                     </div>
                 </div>
             </div>  
             <div class="see-more text-center pt-4">
-                <a href=""><i class="fas fa-comment-alt"></i> See all testimonials</a>          
+                <a class="fw-600" href="" style="color:#CCD408; text-decoration:none"><i class="fas fa-comment-alt"></i> See all testimonials</a>          
             </div>
         </div>
     </div>
     <div class="property-investment pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img src="<?php echo get_theme_file_uri('./images/property-img.svg'); ?>" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class=" ebook">
                         <h2>Property Investment</h2>
                         <p>Get your property guide essential booklet</p>
@@ -316,7 +319,7 @@ get_header();?>
     <div class="investment py-5">
         <div class="container">
             <div class="row">
-                <div class="col-6 top-left pb-5">
+                <div class="col-12 col-md-6 top-left pb-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
@@ -333,7 +336,7 @@ get_header();?>
                                 
                     </div>
                 </div>
-                <div class="col-6 top-right">
+                <div class="col-12 col-md-6 top-right">
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
@@ -354,7 +357,7 @@ get_header();?>
         </div>
         <div class="container ">
             <div class="row">
-                <div class="col-6 bottom-left pt-5">
+                <div class="col-12 col-md-6 bottom-left pt-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
@@ -371,7 +374,7 @@ get_header();?>
                                 
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="container bottom-right pt-5">
                         <div class="row">
                             <div class="col-6">
@@ -394,21 +397,21 @@ get_header();?>
     <div class="contact-us py-5">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                     <img src="<?php echo get_theme_file_uri('./images/contact-img.svg'); ?>" alt="">
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <h2 class="fw-600">Get in touch</h2>
                     <form method="POST" name="myEmailform"  class="needs-validation pt-5" novalidate>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 pr-lg-2">
+                        <div class="form-row d-flex mb-2">
+                            <div class="form-group col-md-6 pe-1 ">
                                 <input type="text" class="form-control" placeholder="Your Name" name="firstName" id="inputFirstName" >
                             </div>
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" placeholder="Phone Number" name="lastName" id="inputLastName" >
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="form-row d-flex mb-2">
                             <div class="form-group col-md-12">
                                 <input type="email" class="form-control" placeholder="Email Address" name="email" id="inputLastName" >
                             </div>
