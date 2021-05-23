@@ -51,19 +51,19 @@
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/projects')?>">Work at MLS</a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">Work at MLS</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/green-building')?>"> Articles </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>"> Articles </a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/green-building')?>">  Get in touch </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  Get in touch </a>
                             </li> 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/green-building')?>">  MLS Soultions </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  MLS Soultions </a>
                             </li> 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/green-building')?>">  About Us </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  About Us </a>
                             </li> 
                         </ul> 
                         <ul class="navbar-nav second-item ml-auto socials mt-0 mb-3 my-md-4 ">
