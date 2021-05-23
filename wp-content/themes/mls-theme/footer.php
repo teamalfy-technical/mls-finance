@@ -110,6 +110,6 @@
     <!-- <script src="<?php echo get_theme_file_uri('/js/jquery.fancybox.min.js'); ?>"> </script>
     <script src="<?php echo get_theme_file_uri('/js/bootstrap.min.js'); ?>"> </script> -->
     <script src="<?php echo get_theme_file_uri('/js/main.js'); ?>"> </script>
-
+  
 
 </body>

@@ -39,7 +39,18 @@ $owlCarousel.on("resize.owl.carousel", () => {
   }, 50);
 });
 
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+// $(document).scroll(function () {
+//   $(".navbar").removeClass('scrolled');
+//   $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+// })
 
+AOS.init();
 
 // lazy loading
 

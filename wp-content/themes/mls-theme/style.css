@@ -17,15 +17,22 @@ body {
 }
 
 nav{
-    background-color: transparent !important;
-    max-width: 1600px;
+    /* background-color: #D8E1E5; */
     margin: 0 auto;
     /* height:85px; */
 
 }
+.fixed-top.scrolled{
+    background-color: #ffffffbf !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.navbar-brand{
+    margin-right: 8rem;
+}
 
 .navbar-brand img{
-    width: 10rem;
+    width: 9rem;
 }
 
 
@@ -42,15 +49,26 @@ header{
     color:#000;
     width: 8rem;
     position: absolute;
-    left: 17em;
+    left:  14.7rem;
+}
+.hero-section h1{
+    font-size: 2rem;
+}
+.hero-text{
+    padding-top: 5rem;
+    text-align: center;
+}
+.hero-section img{
+    width: 2rem
 }
 .overlay{
-    background-color: #00000075;
+    background-color: #0000005c;
     color: #ffffff;
 }
 .navbar{
     padding: .5rem .5rem;
 }
+
 .navbar-light .navbar-nav .nav-link{
     font-size:14px;
     color: #373E36;   
@@ -100,21 +118,29 @@ button:focus{
     /* margin: 0 auto;
     padding: 0 auto; */
 }
-.icon .fa{
+.icon .fa, .far, .fas{
     color: #373E36;
-
+    background-color: rgba(55, 62, 54, 0.097195);
+    border-radius: 5rem;
+    padding: .9rem;
 }
 .tweet-icon .fab{
     color: #CCD408;
 }
 
 .section1-right{
-    padding-top: 6rem;
-    padding-left: 6rem;
+    padding-top: 2rem;
 }
-.section1-right h2{
-    font-size: 45px;
-    line-height: 70px;
+.section1-right h3{
+    font-size: 35px;
+    line-height: 50px;
+    color: #696871;
+}
+.section1-left{
+    color: #696871;
+}
+.section1-right p{
+    color: #696871;
 }
 
 .btn-warning{
@@ -128,8 +154,12 @@ button:focus{
 }
 
 .section2-text{
-    padding-top: 6rem;
-    padding-left: 6rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    color: #373E36;
+
 }
 .section2-text p{
     line-height: 39px;
@@ -141,7 +171,7 @@ button:focus{
     height: 4rem;
 }
 .btn-appointment .round{
-    padding: .4rem;
+    padding: .5rem 0;
     border: 1px solid #CCD408;
     border-radius: 5rem;
 }
@@ -155,7 +185,7 @@ button:focus{
     height: 4rem;
 }
 .btn-call .round{
-    padding: .4rem;
+    padding: .5rem 0;
     border: 1px solid #CCD408;
     border-radius: 5rem;
 }
@@ -182,24 +212,19 @@ button:focus{
 .pillars-section img{
     width: 100%;
 }
-
-.pillars-section .rectangle{
+.pillars-section .rectangle {
     width: 100%;
-    height: 5rem;
-    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+    height: 10rem;
+    padding: 2rem 0rem;
+    box-shadow: 4px 4px 2px rgb(0 0 0 / 15%);
     border-radius: 10px;
 }
-.education, .expertise, .good-listener{
-    border-right: 3px solid #CCD408;
-}
 
-.relationship, .timely, .communication{
-    border-right: 3px solid #CCD408;
-}
 
 .pillar-list h6 a{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
+    font-weight: 600;
 }
 
 .pillar-list h6 a:hover{
@@ -228,13 +253,30 @@ button:focus{
 }
 
 .property-investment .ebook{
-    padding-top: 2rem;
-    padding-left: 8rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
 }
 
 .articles img{
     width: 100%;
     border-radius: .5rem;
+}
+
+.btn-warning:hover {
+    color: #373E36;
+    background-color: #ccd408;
+    border-color: #ffffff;
+}
+.btn-warning:active {
+    color: #373E36;
+    background-color: #ccd408;
+    border-color: #ffffff;
+}
+.btn-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255);
+}
+.btn-warning:active:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255);
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -502,12 +544,17 @@ footer a:hover{
   
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+ 
     .navbar-brand img{
-        width: 100%
+        width: 10rem
     }
     .hero-section h1{
         font-size: 55px;
+    }
+    .fixed-top.scrolled{
+        background-color: #ffffffbf !important;
+        transition: background-color 200ms linear;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
     }
     .hero-section .btn-outline{
         background-color: #CCD408;
@@ -527,6 +574,37 @@ footer a:hover{
     .overlay{
         background-color: transparent;
         color: #373E36;
+    }
+
+    .hero-text{
+        padding-top: 12rem;
+        text-align: left;
+    }
+    .section1-right{
+        padding-top: 5rem;
+        padding-left: 5rem;
+    }
+    .section1-right h3{
+        font-size: 40px;
+    }
+    .section2-text {
+        padding-top: 7rem;
+        padding-left: 5rem;
+    }
+    .pillars-section .rectangle{
+        height: 1rem;
+    }
+    .education, .expertise, .good-listener{
+        border-right: 3px solid #CCD408;
+    }
+
+    .relationship, .timely, .communication{
+        border-right: 3px solid #CCD408;
+    }
+    .property-investment .ebook{
+        padding-top: 2rem;
+        padding-left: 8rem;
+        padding-bottom: 0rem;
     }
     .footer-items{
         padding-top: 4rem;

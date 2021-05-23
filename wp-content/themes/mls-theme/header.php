@@ -36,15 +36,15 @@
     <?php wp_body_open(); ?>
     <header>
         <div class="overlay">
-        <nav class="navbar navbar-expand-md navbar-light " id="mainNav">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top " id="mainNav">
+                <div class="container">
                     <a class="navbar-brand top js-scroll-trigger pl-0 pl-md-3 " href="<?php echo site_url('/')?>">
-                        <img class="img-responsive" src="<?php echo get_theme_file_uri('./images/logo 1.svg'); ?>" alt="logo">      
+                        <img class="img-responsive" src="<?php echo get_theme_file_uri('./images/logo.png'); ?>" alt="logo">      
                     </a>
-                    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse pt-3 pt-md-0 justify-content-end" id="navbarResponsive">
+                    <div class="collapse navbar-collapse pt-3 pt-md-0 justify-content-end" id="navbarNav">
                         <ul class="navbar-nav me-auto ">
                             <li class="nav-item  "> 
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">Partner Up </a>
