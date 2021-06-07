@@ -20,7 +20,7 @@ get_header();?>
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 px-0 hero-text">
-                            <h1 class="pb-2 "    data-aos="fade-up" data-aos-duration="1000">MLS can help you get the right home loans</h1>
+                            <h1 class="pb-2 "    data-aos="fade-up" data-aos-duration="1000">MLS Can Help You Get The Right Home Loans</h1>
                             <h6 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">With low interet rates, now is a great time to broker with MLS Finance</h6>
                             <div class="pt-3">
                                 <div class="d-flex justify-content-center pb-2">
@@ -55,8 +55,8 @@ get_header();?>
             <div class="row">
                 <div class="col-12 col-md-4 section1-left">
                     <div class="mls-card d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        <div class="icon text-center me-3">
-                            <i class="fa fa-home  "></i>
+                        <div class="icon section1-icon text-center me-3">
+                            <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fa fa-home  "></i>
                         </div>
                         <div class="residential-lending"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Residential Lending</h5>
@@ -66,8 +66,8 @@ get_header();?>
                         </div>
                     </div>
                     <div class="mls-card d-flex mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <div class="icon text-center  me-3" >
-                            <i class="far fa-chart-bar "></i>
+                        <div class="icon section1-icon text-center  me-3" >
+                            <i style="color:#696871;background-color: rgba(55, 62, 54, 0.097195); " class="far fa-chart-bar "></i>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Investment Loans</h5>
@@ -77,8 +77,8 @@ get_header();?>
                         </div>
                     </div>
                     <div class="mls-card d-flex mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <div class="icon text-center  me-3">
-                            <i class="fas fa-file-invoice-dollar "></i>
+                        <div class="icon section1-icon text-center  me-3">
+                            <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fas fa-file-invoice-dollar "></i>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Want to Refinance?</h5>
@@ -88,7 +88,7 @@ get_header();?>
                 </div>
                 <div class="col-12 col-md-7">
                     <div class="section1-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-                        <h3 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">Go straight to MLS <br>
+                        <h3 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">Go Straight to MLS <br>
                         Finance</h3>
                         <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">Find a variety of servies and assitance offered <br> here at MLS Finanace</p>
                         <button type="button" class="btn btn-warning">Learn More</button>
@@ -120,19 +120,19 @@ get_header();?>
     <div class="calculator-section py-5">
         <div class="container">
             <div class="text-center py-3 py-md-5">
-                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use our helpful calculators to crunch the numbers</h2>
+                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use Our Helpful Calculators To Crunch The Numbers</h2>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around py-2 py-md-3" >
-                <button class="btn btn-calc mb-2 mb-md-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Savings Calculator <i class="fas fa-calculator"></i></button>
-                <button class="btn btn-calc-light" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Budget Planning Calculator <i class="fas fa-calculator"></i></button>
+                <button class="btn btn-calc mb-2 mb-md-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"> Borrowing Calculator <i class="fas fa-calculator"></i></button>
+                <button class="btn btn-calc-light" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Repayment Calculator <i class="fas fa-calculator"></i></button>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between py-2  py-md-3" data-aos="fade-up" >
                 <button class="btn btn-calc-light mb-2 mb-md-0" data-aos-duration="1000" data-aos-delay="300">Savings Calculator <i class="fas fa-calculator"></i></button>
-                <button class="btn btn-calc"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Budget Planning Calculator <i class="fas fa-calculator"></i></button>
+                <button class="btn btn-calc"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Budget Planner Calculator <i class="fas fa-calculator"></i></button>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around  py-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <button class="btn btn-calc mb-2 mb-md-0">Savings Calculator <i class="fas fa-calculator"></i></button>
-                <button class="btn btn-calc-light">Budget Planning Calculator <i class="fas fa-calculator"></i></button>
+                <button class="btn btn-calc mb-2 mb-md-0">Stamp Duty Calculator <i class="fas fa-calculator"></i></button>
+                <button class="btn btn-calc-light">Extra Repayment Calculator <i class="fas fa-calculator"></i></button>
             </div>
         </div>
     </div>
@@ -190,7 +190,7 @@ get_header();?>
     <div class="customer-report pb-5 py-md-5">
         <div class="container">
             <div class="text-center py-5">
-                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="fw-600">Customers are loving MLS Finance</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="fw-600">Customers Are Loving MLS Finance</h2>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around">
                 <div class="testimonial me-0 me-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
@@ -246,7 +246,7 @@ get_header();?>
                 </div>
             </div>  
             <div class="see-more text-center pt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <a class="fw-600" href="" style="color:#CCD408; text-decoration:none"><i class="fas fa-comment-alt"></i> See all testimonials</a>          
+                <a class="fw-600" href=""><i class="fas fa-comment-alt"></i> See all testimonials</a>          
             </div>
         </div>
     </div>
@@ -282,7 +282,7 @@ get_header();?>
                             <div class="col-12 col-md-6">
                                 <div class="owl-slider-text pt-5">
                                     <p>Our buy vs rent report shows where it could be cheaper to buy than rent</p>
-                                    <a class="fw-600" href="">Find out more</a>
+                                    <a class="fw-600" href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,7 @@ get_header();?>
                             <div class="col-12 col-md-6">
                                 <div class="owl-slider-text pt-5">
                                     <p>Our buy vs rent report shows where it could be cheaper to buy than rent</p>
-                                    <a class="fw-600" href="">Find out more</a>
+                                    <a class="fw-600" href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +312,7 @@ get_header();?>
                             <div class="col-12 col-md-6">
                                 <div class="owl-slider-text pt-5">
                                     <p>Our buy vs rent report shows where it could be cheaper to buy than rent</p>
-                                    <a class="fw-600" href="">Find out more</a>
+                                    <a class="fw-600" href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -335,7 +335,7 @@ get_header();?>
                                 <div class="mt-4 mt-md-0">
                                     <h5 class="fw-600">Buying your first home?</h5>
                                     <p>Things to know when buying your first home</p>
-                                    <a href="">Find out more</a>
+                                    <a href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>     
                             </div>
                         </div>
@@ -352,7 +352,7 @@ get_header();?>
                                 <div class="mt-4 mt-md-0">
                                     <h5 class="fw-600">Buying your first home?</h5>
                                     <p>Things to know when buying your first home</p>
-                                    <a href="">Find out more</a>
+                                    <a href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>     
                             </div>
                         </div>
@@ -373,7 +373,7 @@ get_header();?>
                                 <div class="mt-4 mt-md-0">
                                     <h5 class="fw-600">Buying your first home?</h5>
                                     <p>Things to know when buying your first home</p>
-                                    <a href="">Find out more</a>
+                                    <a href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>     
                             </div>
                         </div>
@@ -390,7 +390,7 @@ get_header();?>
                                 <div class="mt-4 mt-md-0">
                                     <h5 class="fw-600">Buying your first home?</h5>
                                     <p>Things to know when buying your first home</p>
-                                    <a href="">Find out more</a>
+                                    <a href="">Find out more <i class="fas fa-arrow-right"></i></a>
                                 </div>     
                             </div>
                         </div>
@@ -433,8 +433,8 @@ get_header();?>
                             </div>     
                         </div>
 
-                        <div class="py-3">
-                            <input  class="btn btnn mt-1" type="submit" value="Send Message" style="background-color: #ffffff; color:#000000; border-color:#ffffff; margin-left: 31rem; height:45px">
+                        <div class="d-flex justify-content-end">
+                            <input  class="btn btnn mt-1" type="submit" value="Send Message" style="background-color: #ffffff; color:#000000; border-color:#ffffff;  height:45px">
                         </div>                  
                     </form> 
                 </div>

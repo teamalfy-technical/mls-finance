@@ -54,7 +54,7 @@
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">Work at MLS</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>"> Articles </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/articles')?>"> Articles </a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  Get in touch </a>
