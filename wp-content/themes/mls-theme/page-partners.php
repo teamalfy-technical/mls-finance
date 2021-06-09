@@ -1,20 +1,9 @@
 <?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- *@package Mls Finance
- * @subpackage Mls Finance
- * @since 1.0
- */
-/* Template Name: Partners */
+
+/* Template Name: Partners */ 
 get_header();?>
+<header style="background:url(<?php echo get_theme_file_uri('./images/partners-bg.svg') ?>) no-repeat, repeat; background-size: cover;background-position: center; height: 42rem; background-color: #D8E1E5;">
+    <div class="overlay">
             <div class="container">
                 <div class="hero-section ">
                     <div class="container">

@@ -34,8 +34,7 @@
 
 <body>
     <?php wp_body_open(); ?>
-    <header>
-        <div class="overlay">
+   
             <nav class="navbar navbar-expand-md navbar-light fixed-top " id="mainNav">
                 <div class="container">
                     <a class="navbar-brand top js-scroll-trigger pl-0 pl-md-3 " href="<?php echo site_url('/')?>">
@@ -57,10 +56,10 @@
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/articles')?>"> Articles </a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/contact-us')?>">  Get in touch </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#contact-us')?>">  Get in touch </a>
                             </li> 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/mls-solution')?>">  MLS Soultions </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/mls-solutions')?>">  MLS Soultions </a>
                             </li> 
                             <li class="nav-item ">
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/about-us')?>">  About Us </a>

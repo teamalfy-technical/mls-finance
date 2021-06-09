@@ -15,7 +15,9 @@
  */
 /* Template Name: Articles */
 get_header();?>
-    <div class="container">
+    <header style="background:url(<?php echo get_theme_file_uri('./images/articles-BG.svg') ?>) no-repeat; background-color: #D8E1E5; repeat; background-size: cover;background-position: center; height: 45rem;">
+        <div class="overlay">
+            <div class="container">
                 <div class="hero-section ">
                     <div class="container">
                         <div class="row">

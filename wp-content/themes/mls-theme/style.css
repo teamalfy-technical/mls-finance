@@ -490,6 +490,38 @@ button:focus{
 .partners-form{
   
 }
+
+.latest-article .profile img{
+    width: 10rem;
+    border-radius: .5rem;
+}
+
+.article-card{
+    box-shadow: 0px 38.9735px 40.4725px rgba(65, 62, 101, 0.102519);
+    background: #FFFFFF;
+    border-radius: .5rem;
+
+}
+
+.whatIsMls{
+    background-color: #CCD408;
+}
+.whatIsMls img{
+    width: 100%;
+}
+
+.how-can-help img{
+    width: 100%;
+}
+
+.value{
+    background-color: #CCD408;
+}
+
+.value img{
+    width: 100%;
+}
+
 .yellow-card{
     width: auto;
     height: auto;
@@ -613,9 +645,8 @@ footer a:hover{
         height: 45rem;
         background-color: #D8E1E5;
     } */
-     .overlay{
-        background-color: transparent;
-        color: #373E36;
+    .overlay{
+        background-color: #373e3663 !important;
     }
 
     .hero-text{

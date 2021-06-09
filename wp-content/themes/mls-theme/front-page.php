@@ -15,6 +15,8 @@
  */
 /* Template Name: Home */
 get_header();?>
+<header>
+    <div class="overlay">
         <div class="container">
             <div class="hero-section ">
                 <div class="container">
@@ -400,7 +402,7 @@ get_header();?>
             </div>
         </div>
     </div>
-    <div class="contact-us py-5">
+    <div class="contact-us py-5" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5">
