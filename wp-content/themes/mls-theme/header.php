@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="<?php echo get_theme_file_uri('style.css'); ?>">
 
 </head>
@@ -47,23 +47,23 @@
                     <div class="collapse navbar-collapse pt-3 pt-md-0 justify-content-end" id="navbarNav">
                         <ul class="navbar-nav me-auto ">
                             <li class="nav-item  "> 
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">Partner Up </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/partners')?>">Partner Up </a>
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">Work at MLS</a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/work-at-mls')?>">Work at MLS</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/articles')?>"> Articles </a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  Get in touch </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/contact-us')?>">  Get in touch </a>
                             </li> 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  MLS Soultions </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/mls-solution')?>">  MLS Soultions </a>
                             </li> 
                             <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/')?>">  About Us </a>
+                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/about-us')?>">  About Us </a>
                             </li> 
                         </ul> 
                         <ul class="navbar-nav second-item ml-auto socials mt-0 mb-3 my-md-4 ">

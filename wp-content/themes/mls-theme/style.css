@@ -435,6 +435,68 @@ button:focus{
     border-radius: 10.8313px;
 }
 
+/* work with us styles */
+
+.future-colleaques img{
+    width: 100%;
+}
+
+.future-colleaques .future-colleaques-text{
+    padding-top: 10rem;
+}
+
+.little-about-us{
+    background-color: #CCD408;
+}
+
+.open-roles{
+    background-color: #CCD408;
+}
+.open-roles .vector{
+    background: url('./images/Vector.svg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+.open-roles img{
+    width: 73%;
+}
+.openroles-text {
+    padding-top: 10rem;
+}
+
+.progress-bar{
+    background-color: #CCD408;
+    color: #373E36;
+    font-weight: 600;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.progress{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #373E36;
+   
+}
+
+.referal-partner{
+    background-color: #CCD408;
+}
+.referal-partner img{
+    width: 100%;
+}
+
+.partners-form{
+  
+}
+.yellow-card{
+    width: auto;
+    height: auto;
+    padding: 1rem 1rem;
+    background-color: #CCD408;
+    border-radius: .5rem;
+}
 .mls-color{
     color: #CCD408;
 }
@@ -557,7 +619,7 @@ footer a:hover{
     }
 
     .hero-text{
-        padding-top: 12rem;
+        padding-top: 10rem;
         text-align: left;
     }
     .section1-right{
