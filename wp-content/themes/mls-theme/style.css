@@ -397,6 +397,31 @@ button:focus{
     width: 100%;
     border-radius: 1rem;
 }
+.podcast .new-layout .article-img img{
+    width: 100%;
+}
+.articles-section .new-layout .article-img img{
+    width: 13rem;
+}
+
+.articles-section .new-layout p{
+    font-size: .8rem;
+}
+.new-layout .article-rounded a{
+    font-size: .8rem;
+}
+.new-layout ol, ul {
+    padding-left: 1rem;
+}
+
+.new-layout .accordion{
+    width: 100%;
+}
+
+.articles-section .new-layout .aurthor-details img {
+    width: 46px;
+    height: 46px;
+}
 
 .aurthor-details img{
     width: 65px;

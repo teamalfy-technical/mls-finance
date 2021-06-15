@@ -26,36 +26,36 @@ get_header();?>
                                 <h6 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Enter your details and email address below and we'll send you our monthly updates.</h6>
                                 <div class="pt-3">
                                     <form action="">
-                                        <div class="form-row d-flex">
-                                            <div class="form-group col-md-6 pe-2 mx-0 ">
-                                                <input type="text" class="form-control " placeholder="Full Bame" name="firstName" id="inputFullName" >
+                                        <div class="form-row d-flex flex-column flex-md-row">
+                                            <div class="form-group col-12 col-md-6 pe-0 pe-md-2 mx-0 ">
+                                                <input type="text" class="form-control" placeholder="Full Name" name="firstName" id="inputFullName" >
                                             </div>
-                                            <div class="form-group col-md-6 ps-1 mx-0">
+                                            <div class="form-group col-12 col-md-6 ps-0 ps-md-1 pt-2 pt-md-0 mx-0">
                                                 <input type="email" class="form-control" placeholder="Email Address" name="emailAddress" id="inputEmail" >
                                             </div>
                                         </div>
-                                        <div class="d-flex pt-2">
-                                            <div class="form-group col-md-6 pe-2 mx-0">
-                                                <input type="tel" class="form-control" placeholder="Phone Number" name="emailAddress" id="inputEmail" >
+                                        <div class="d-flex flex-column flex-md-row pt-2">
+                                            <div class="form-group col-12 col-md-6 pe-0 pe-md-2 mx-0">
+                                                <input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number" id="phonenumber" >
                                             </div>
                                         </div>
-                                        <div class="d-flex pt-2">
+                                        <div class="d-flex flex-column flex-md-row pt-2">
                                             <p>If you also enter your address details below we'll send you our latest magazine quarterly</p> 
                                         </div>
-                                        <div class="form-row d-flex">
-                                            <div class="form-group col-md-6 pe-2 mx-0 ">
-                                                <input type="text" class="form-control " placeholder="Full Bame" name="firstName" id="inputFullName" >
+                                        <div class="form-row d-flex flex-column flex-md-row">
+                                            <div class="form-group col-12 col-md-6 pe-0 pe-md-2 mx-0 ">
+                                                <input type="text" class="form-control " placeholder="Address" name="Address" id="address" >
                                             </div>
-                                            <div class="form-group col-md-6 ps-1 mx-0">
-                                                <input type="email" class="form-control" placeholder="Email Address" name="emailAddress" id="inputEmail" >
+                                            <div class="form-group col-12 col-md-6 ps-0 ps-md-1 pt-2 pt-md-0 mx-0">
+                                                <input type="text" class="form-control" placeholder="Suburb" name="suburb" id="suburb" >
                                             </div>
                                         </div>
-                                        <div class="form-row d-flex pt-2">
-                                            <div class="form-group col-md-6 pe-2 mx-0 ">
-                                                <input type="text" class="form-control " placeholder="Full Bame" name="firstName" id="inputFullName" >
+                                        <div class="form-row d-flex flex-column flex-md-row pt-2">
+                                            <div class="form-group col-12 col-md-6 pe-0 pe-md-2 mx-0 ">
+                                                <input type="text" class="form-control " placeholder="State" name="state" id="state" >
                                             </div>
-                                            <div class="form-group col-md-6 ps-1 mx-0">
-                                                <input type="email" class="form-control" placeholder="Email Address" name="emailAddress" id="inputEmail" >
+                                            <div class="form-group col-12 col-md-6 ps-0 ps-md-1 pt-2 pt-md-0 mx-0">
+                                                <input type="text" class="form-control" placeholder="Postcode" name="postcode" pattern="[0-9]*" id="postcode" >
                                             </div>
                                         </div>
                                         <div class="d-flex justify-content-end pt-2 mb-5">
@@ -72,13 +72,227 @@ get_header();?>
         </div> <!-- overlay ends here -->
     </header>
 
-    <div class="articles-section py-5 ">
-        <div class="text-center py-5">
+    <div class="articles-section py-3 py-md-5 ">
+        <div class="text-center pb-2 pb-md-3">
             <h2 class="fw-600"> Articles</h2>
             <p>MLS Finance Latest News and Articles</p>
         </div>
         <div class="container">
-            <div class="row article-rounded p-5">
+            <div class="row new-layout">
+                <!-- <div class="col-12 col-md-1">
+                    <h5>Categories</h5>
+                    <ul>
+                        <li><a href="">Finance</a></li>
+                        <li><a href="">Investment</a></li>
+                        <li><a href="">Banking</a></li>
+                        <li><a href="">House Investment</a></li>
+                        <li><a href="">Brokers</a></li>
+                    </ul>
+                </div> -->
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600  py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex flex-column flex-md-row aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600  py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex flex-column flex-md-row aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row new-layout pt-4">
+                <div class="col-12 col-md-6 mb-4 mb-md-0 ">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600  py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex flex-column flex-md-row aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600  py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row new-layout pt-4">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600   py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex flex-column flex-md-row aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
+                        </div>
+                        <div class="ps-2">
+                            <h5 class="fw-600  py-2 py-md-0">Are you a  looking to buy a new home?</h5>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to know here</p>
+                            <div class="d-flex flex-column flex-md-row aurthor-details ">
+                                <div class="d-flex">
+                                    <div class="d-flex profile">
+                                        <img src="<?php echo get_theme_file_uri('./images/profile.jpg'); ?>" alt="">
+                                        <div class="ps-3">
+                                            <p class="fw-600 mb-0">Wayne Hedley</p>
+                                            <p>20th April, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="numer-of-likes">
+                                    <p class="fw-600"><i class="fas fa-heart p-0 mx-2"></i>200</p>
+                                </div>
+                                <div class="comments">
+                                    <p class="fw-600"><i class="far fa-comment-dots p-0 mx-2"></i> 200 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a class="fw-600 mls-color" href="">Find out more <i class="fas fa-arrow-right"></i></a>
+                                <a class="fw-600" href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row article-rounded p-5">
                 <div class="col-12 col-md-5 section1-left">
                     <div class="article-img">
                         <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/featured-img.png'); ?>" alt="">
@@ -146,9 +360,191 @@ get_header();?>
                         </div>
                     </div>
                 </div>
+            </div> -->
+           
+            <div class="row podcast new-layout pt-5 mt-5">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/book-cover.png'); ?>" alt="">
+                            <h4 class="fw-600 pt-4">Finance History</h4>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to ... more</p>
+                            <button class="btn btn-warning" type="submit"><i class="fas fa-play"></i> Latest Podcast</button>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>
+                                    
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/book-cover.png'); ?>" alt="">
+                            <h4 class="fw-600 pt-4">Finance History</h4>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to ... more</p>
+                            <button class="btn btn-warning" type="submit"><i class="fas fa-play"></i> Latest Podcast</button>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row podcast new-layout  mt-4">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/book-cover.png'); ?>" alt="">
+                            <h4 class="fw-600 pt-4">Finance History</h4>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to ... more</p>
+                            <button class="btn btn-warning" type="submit"><i class="fas fa-play"></i> Latest Podcast</button>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>
+                                    
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column flex-md-row article-rounded p-4">
+                        <div class="article-img">
+                            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/book-cover.png'); ?>" alt="">
+                            <h4 class="fw-600 pt-4">Finance History</h4>
+                            <p>The MLS home ownership dream can be fulfilled. Find out all you need to ... more</p>
+                            <button class="btn btn-warning" type="submit"><i class="fas fa-play"></i> Latest Podcast</button>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <a href="">Thursday, 20 May 2020 - 1Hr #1 Finance Read</a>  
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
 
-            <div class="row article-rounded p-5 my-5">
+
+            <!-- <div class="row article-rounded p-5 my-5">
                 <div class="col-12 col-md-6 section1-left ">
                     <div class="article-img">
                         <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" src="<?php echo get_theme_file_uri('./images/book-cover.png'); ?>" alt="">
@@ -206,7 +602,7 @@ get_header();?>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="text-center py-5">
             <button class="btn btn-warning" type="submit"> See More</button>
