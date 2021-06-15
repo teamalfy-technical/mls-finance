@@ -10,7 +10,7 @@ get_header();?>
                         <div class="row">
                             <div class="col-12 col-md-6 px-0 hero-text">
                                 <h1 class="pb-2 fw-600"    data-aos="fade-up" data-aos-duration="1000">Join the MLS Finance Family</h1>
-                                <h6 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Become an MLS partner </h6>
+                                <h6 class="fw-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Become an MLS partner </h6>
                                 <form method="POST" name="myEmailform"  class="needs-validation pt-3" novalidate>
                                     <div class="form-row d-flex flex-column flex-md-row mb-2">
                                         <div class="form-group col-12 col-md-6 pe-0 pe-md-1 mb-2 mb-md-0">

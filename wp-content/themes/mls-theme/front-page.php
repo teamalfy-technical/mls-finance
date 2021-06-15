@@ -23,7 +23,7 @@ get_header();?>
                     <div class="row">
                         <div class="col-12 col-md-6 px-0 hero-text">
                             <h1 class="pb-2 "    data-aos="fade-up" data-aos-duration="1000">MLS Can Help You Get The Right Home Loans</h1>
-                            <h6 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">With low interet rates, now is a great time to broker with MLS Finance</h6>
+                            <h3 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">With low interet rates, now is a great time to broker with MLS Finance</h3>
                             <div class="pt-3">
                                 <div class="d-flex justify-content-center pb-2">
                                     <p class="pt-3 me-4 fw-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Book a consultation today</p>
@@ -105,7 +105,7 @@ get_header();?>
             <div class="row">
                 <div class="col-12 col-md-5 ">
                     <div class="section2-text" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-                        <h2 class="fw-600">MLS is here to help</h2>
+                        <h3 class="fw-600">MLS is here to help</h3>
                         <p>Experience the MLS broker difference, we take out the legwork and we will fit into your schedule</p>
                        <div class="d-flex flex-column">
                             <button class="btn btn-appointment mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Book Appointment</button>
@@ -122,7 +122,7 @@ get_header();?>
     <div class="calculator-section py-5">
         <div class="container">
             <div class="text-center py-3 py-md-5">
-                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use Our Helpful Calculators To Crunch The Numbers</h2>
+                <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use Our Helpful Calculators To Crunch The Numbers</h3>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around py-2 py-md-3" >
                 <button class="btn btn-calc mb-2 mb-md-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"> Borrowing Calculator <i class="fas fa-calculator"></i></button>
@@ -142,7 +142,7 @@ get_header();?>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">What makes us different?</h2>
+                    <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">What makes us different?</h3>
                     <p class="fw-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The 8 pillars of MLS Finance</p>
                     <div class="pillar-list">
                         <div class="rectangle d-flex flex-column flex-md-row align-items-center px-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -192,7 +192,7 @@ get_header();?>
     <div class="customer-report pb-5 py-md-5">
         <div class="container">
             <div class="text-center py-5">
-                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="fw-600">Customers Are Loving MLS Finance</h2>
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="fw-600">Customers Are Loving MLS Finance</h3>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around">
                 <div class="testimonial me-0 me-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
@@ -271,7 +271,7 @@ get_header();?>
     <div class="articles py-5">
         <div class="container">
             <div class="title text-center">
-                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Our Latest Articles</h2>
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Our Latest Articles</h3>
                 <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Explore the world of finance with our latest blog posts</p>
             </div>
             <div class="owl-carousel owl-theme pt-5">
@@ -409,7 +409,7 @@ get_header();?>
                     <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" src="<?php echo get_theme_file_uri('./images/contact-img.svg'); ?>" alt="">
                 </div>
                 <div class="col-12 col-md-7">
-                    <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Get in touch</h2>
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Get in touch</h3>
                     <form method="POST" name="myEmailform"  class="needs-validation pt-5" novalidate>
                         <div class="form-row d-flex flex-column flex-md-row mb-2">
                             <div class="form-group col-12 col-md-6 pe-0 pe-md-1 mb-2 mb-md-0">

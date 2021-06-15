@@ -87,7 +87,7 @@ button:focus{
 .navbar-light .navbar-nav .nav-link:focus{
     color: #CCD408;
     font-weight: normal;
-    
+
 }
 
 .navbar-light .navbar-nav .nav-link a:active{
@@ -129,13 +129,13 @@ button:focus{
 .section1-right h3{
     font-size: 35px;
     line-height: 50px;
-    color: #696871;
+    /* color: #696871; */
 }
 .section1-left{
     color: #696871;
 }
 .section1-right p{
-    color: #696871;
+    /* color: #696871; */
 }
 
 .btn-warning{
@@ -355,7 +355,7 @@ button:focus{
 .owl-carousel .owl-dots,
 .owl-carousel .owl-nav {
     position: absolute;
-    left: 38rem;
+    left: 44rem;
     bottom: 0rem;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
