@@ -382,6 +382,8 @@ button:focus{
 }
 .contact-us img{
     width: 100%;
+    border-radius: .9rem;
+
 }
 
 .socials .fab{
@@ -463,7 +465,9 @@ button:focus{
 /* work with us styles */
 
 .future-colleaques img{
-    width: 100%;
+    width: 67%;
+    height: 33rem;
+    margin-left: 13rem;
 }
 
 .future-colleaques .future-colleaques-text{
@@ -488,6 +492,9 @@ button:focus{
 }
 .openroles-text {
     padding-top: 10rem;
+}
+.open-roles .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff;
 }
 
 .progress-bar{
@@ -651,7 +658,7 @@ footer a:hover{
         font-size: 55px;
     }
     .fixed-top.scrolled{
-        background-color: #ffffffbf !important;
+        background-color: #ffffff !important;
         transition: background-color 200ms linear;
         box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
     }

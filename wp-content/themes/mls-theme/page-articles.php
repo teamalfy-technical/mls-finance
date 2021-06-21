@@ -34,7 +34,7 @@ get_header();?>
                                                 <input type="email" class="form-control" placeholder="Email Address" name="emailAddress" id="inputEmail" >
                                             </div>
                                         </div>
-                                        <div class="d-flex flex-column flex-md-row pt-2">
+                                        <!-- <div class="d-flex flex-column flex-md-row pt-2">
                                             <div class="form-group col-12 col-md-6 pe-0 pe-md-2 mx-0">
                                                 <input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number" id="phonenumber" >
                                             </div>
@@ -57,7 +57,7 @@ get_header();?>
                                             <div class="form-group col-12 col-md-6 ps-0 ps-md-1 pt-2 pt-md-0 mx-0">
                                                 <input type="text" class="form-control" placeholder="Postcode" name="postcode" pattern="[0-9]*" id="postcode" >
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="d-flex justify-content-end pt-2 mb-5">
                                             <button class="btn btn-warning" type="submit">Submit</button>
                                         </div>
@@ -76,8 +76,21 @@ get_header();?>
         <div class="text-center pb-2 pb-md-3">
             <h2 class="fw-600"> Articles</h2>
             <p>MLS Finance Latest News and Articles</p>
+
         </div>
         <div class="container">
+            <div class="category py-5">
+                <div class="text-center pb-4">
+                    <h5 class="fw-600"> Category</h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="">General</a>
+                    <a href="">Property Investment</a>
+                    <a href="">Commercial Investment</a>
+                    <a href="">Market Insights</a>
+                    <a href="">Latest</a>
+                </div>
+            </div>
             <div class="row new-layout">
                 <!-- <div class="col-12 col-md-1">
                     <h5>Categories</h5>

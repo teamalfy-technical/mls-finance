@@ -55,7 +55,7 @@ get_header();?>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 section1-left">
-                    <div class="mls-card d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="mls-card h-100 d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div class="icon section1-icon text-center me-3">
                             <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fa fa-home  "></i>
                         </div>
@@ -69,7 +69,7 @@ get_header();?>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="mls-card d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="mls-card h-100 d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div class="icon section1-icon text-center me-3">
                             <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fa fa-home  "></i>
                         </div>
@@ -82,7 +82,7 @@ get_header();?>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="mls-card d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="mls-card h-100 d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div class="icon section1-icon text-center me-3">
                             <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fa fa-home  "></i>
                         </div>

@@ -39,6 +39,9 @@ $owlCarousel.on("resize.owl.carousel", () => {
   }, 50);
 });
 
+// new roles carousel
+// new roles carousel ends
+
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".fixed-top");

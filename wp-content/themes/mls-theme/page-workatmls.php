@@ -82,14 +82,94 @@ get_header();?>
                         <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Book Appointment</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mx-0 px-0">
-                   <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200"  src="<?php echo get_theme_file_uri('./images/colleaques-bg.jpg'); ?>" alt="">
+                <div class="col-12 col-md-6 mx-0 px-0 ">
+                   <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200"  src="<?php echo get_theme_file_uri('./images/c-bg.jpg'); ?>" alt="">
                 </div>
             </div>
         </div>
     </div>
     <div class="open-roles">
-        <div class="container-fluid">
+        <div class="owl-carousel owl-theme" id="new-roles">
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600">MORTGAGE BROKER</h2>
+                                <ul>
+                                    <li>Best suited to: Bank lender or existing mortgage broker</li>
+                                    <li>Experience required: Min. 12 months in finance</li>
+                                    <li>Sales / Networking experience required: Yes</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Join Us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4>Currently Open Roles</h4>
+                                <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600">Something Else</h2>
+                                <ul>
+                                    <li>Best suited to: Bank lender or existing mortgage broker</li>
+                                    <li>Experience required: Min. 12 months in finance</li>
+                                    <li>Sales / Networking experience required: Yes</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Join Us Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4>Currently Open Roles</h4>
+                                <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600">MORTGAGE BROKER</h2>
+                                <ul>
+                                    <li>Best suited to: Bank lender or existing mortgage broker</li>
+                                    <li>Experience required: Min. 12 months in finance</li>
+                                    <li>Sales / Networking experience required: Yes</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Join Us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4>Currently Open Roles</h4>
+                                <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-7 vector">
                     <div class="openroles-text ps-5">
@@ -112,7 +192,7 @@ get_header();?>
                    </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="whywork-with-us py-5 ">
         <div class="text-center py-5">
@@ -237,11 +317,12 @@ get_header();?>
                             <input type="email" class="form-control" placeholder="Email Address" name="email" id="inputLastName" >
                         </div>
                     </div>
-                    <div class="form-row">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
+                    <div class="form-row  mb-2">
+                        <textarea class="form-control" placeholder="Message- paste your cover letter here" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-
+                    <div class="form-row">
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
                     <div class="d-flex justify-content-end">
                         <input  class="btn btnn mt-1" type="submit" value="Send Message" style="background-color: #ffffff; color:#000000; border-color:#ffffff;  height:45px">
                     </div>                  
