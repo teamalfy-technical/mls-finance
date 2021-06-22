@@ -571,6 +571,43 @@ button:focus{
     background-color: #ffffff;
 }
 
+/* property page */
+
+.management{
+    background-color: #CCD408;
+}
+.management .btn-appointment {
+    background-color: #ffffff;
+    color: #373E36;
+    width: 15rem;
+    height: 5rem;
+}
+
+.management .btn-call {
+    background-color: #ffffff;
+    color: #373E36;
+    width: 15rem;
+    height: 5rem;
+}
+
+.btn-interest{
+    background-color: #CCD408;
+    color: #373E36;
+    padding: 1rem;
+}
+
+
+/* first home buyers page */
+.budget-borrowing img{
+    width: 100%;
+}
+
+.location{
+    background-color: #CCD408;
+}
+.location img{
+    width: 100%;
+}
 footer{
     max-width: 1600px;
     margin: 0 auto;
