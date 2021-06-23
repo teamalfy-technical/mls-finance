@@ -58,11 +58,21 @@
                             <li class="nav-item ">
                                 <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#contact-us')?>">  Get in touch </a>
                             </li> 
-                            <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/mls-solutions')?>">  MLS Soultions </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="<?php echo site_url('/mls-solutions')?>">  MLS Soultions </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/mls-solutions')?>">MLS Soultions</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/property')?>">Properties</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/first-home-buyer')?>">First Home Buyers</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/business-commercial')?>">Business Commercials</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/finance-vehicles')?>">Finance Vehicles</a></li>
+                                </ul>
                             </li> 
-                            <li class="nav-item ">
-                                <a class="nav-link js-scroll-trigger" href="<?php echo site_url('/about-us')?>">  About Us </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="<?php echo site_url('/about-us')?>">  About Us </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="<?php echo site_url('/teams')?>">Teams</a></li>
+                                </ul>
                             </li> 
                         </ul> 
                         <ul class="navbar-nav second-item ml-auto socials mt-0 mb-3 my-md-4 ">
@@ -89,6 +99,22 @@
                  
                 </div>
             </nav>
+            <script>
+                jQuery(function($) {
+                $('.navbar .dropdown').hover(function() {
+                $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+                }, function() {
+                $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+                });
+
+                $('.navbar .dropdown > a').click(function(){
+                location.href = this.href;
+                });
+
+                });
+            </script>
        
        
   
