@@ -23,7 +23,7 @@ get_header();?>
                     <div class="row">
                         <div class="col-12 col-md-6 px-0 hero-text">
                             <h1 class="pb-2 "    data-aos="fade-up" data-aos-duration="1000">MLS Can Help You Get The Right Home Loans</h1>
-                            <h3 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">With low interet rates, now is a great time to broker with MLS Finance</h3>
+                            <h3 class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">With low interest rates, now is a great time to broker with MLS Finance</h3>
                             <div class="pt-3">
                                 <div class="d-flex justify-content-center pb-2">
                                     <p class="pt-3 me-4 fw-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Book a consultation today</p>
@@ -143,7 +143,7 @@ get_header();?>
             <div class="row">
                 <div class="col-12 col-md-8">
                     <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">What makes us different?</h3>
-                    <p class="fw-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The 8 pillars of MLS Finance</p>
+                    <p class="  " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The 8 pillars of MLS Finance</p>
                     <div class="pillar-list">
                         <div class="rectangle d-flex flex-column flex-md-row align-items-center px-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <div class="education px-5">
@@ -173,7 +173,7 @@ get_header();?>
                                 <h6 class=""><a href="">Personalise</a></h6>
                             </div>
                         </div>
-                        <p class="fw-600 pt-5 pb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">At MLS Finance. we teach you throughout the process so that once settled, you leave 
+                        <p class="pt-5 pb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">At MLS Finance. we teach you throughout the process so that once settled, you leave 
                         more educated. That means you come away from a phone call or meeting feeling 
                         like you know more thaj you did going in ....</p>
                         <button type="button" class="btn btn-warning">Learn More</button>
