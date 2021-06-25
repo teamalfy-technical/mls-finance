@@ -697,6 +697,15 @@ footer a:hover{
     filter: drop-shadow(0px 60.265px 62.5829px rgba(65, 62, 101, 0.296766));
 }
 
+/* single -article */
+.article-details .author-profile img{
+    width: 10rem;
+    border-radius: 28rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+
 /* .wpcf7-submit{
     background-color: #000000;
     color: #ffffff;
