@@ -54,11 +54,16 @@ get_header();?>
 </header>
     <div class="section-1 py-5 ">
         <div class="container">
+            <div class="text-center pb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">Go Straight to MLS 
+                Finance</h3>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">Find a variety of servies and assitance offered  here at MLS Finanace</p>
+            </div>
             <div class="row">
-                <div class="col-12 col-md-4 section1-left">
-                    <div class="mls-card d-flex align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        <div class="icon section1-icon text-center me-3">
-                            <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fa fa-home  "></i>
+                <div class="col-12 col-md-4 ">
+                    <div class=" text-center align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="icon section1-icon  me-3">
+                            <i style="color:#696871; background-color: #f0f0f0;" class="fa fa-home  "></i>
                         </div>
                         <div class="residential-lending"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Residential Lending</h5>
@@ -67,9 +72,11 @@ get_header();?>
                             variety of mortgage options</p>
                         </div>
                     </div>
-                    <div class="mls-card d-flex mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <div class="icon section1-icon text-center  me-3" >
-                            <i style="color:#696871;background-color: rgba(55, 62, 54, 0.097195); " class="far fa-chart-bar "></i>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <div class="text-center " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="icon section1-icon   me-3" >
+                            <i style="color:#696871;background-color:#f0f0f0; " class="far fa-chart-bar "></i>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Investment Loans</h5>
@@ -78,24 +85,17 @@ get_header();?>
                             settlement</p>
                         </div>
                     </div>
-                    <div class="mls-card d-flex mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <div class="icon section1-icon text-center  me-3">
-                            <i style="color:#696871; background-color: rgba(55, 62, 54, 0.097195);" class="fas fa-file-invoice-dollar "></i>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <div class=" text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="icon section1-icon   me-3">
+                            <i style="color:#696871; background-color: #f0f0f0;" class="fas fa-file-invoice-dollar "></i>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                             <h5 class="fw-600">Want to Refinance?</h5>
                             <p>Learn about refinancing, when to do it and what to do every step</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-7">
-                    <div class="section1-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-                        <h3 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">Go Straight to MLS <br>
-                        Finance</h3>
-                        <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">Find a variety of servies and assitance offered <br> here at MLS Finanace</p>
-                        <button type="button" class="btn btn-warning">Learn More</button>
-                    </div>
-                   
                 </div>
             </div>
         </div>
@@ -107,10 +107,10 @@ get_header();?>
                     <div class="section2-text" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
                         <h3 class="fw-600">MLS is here to help</h3>
                         <p>Experience the MLS broker difference, we take out the legwork and we will fit into your schedule</p>
-                       <div class="d-flex flex-column">
+                       <!-- <div class="d-flex flex-column">
                             <button class="btn btn-appointment mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Book Appointment</button>
                             <button class="btn btn-call"><a class="round me-2" href=""><i class="fas fa-phone"></i></a>Give us a call today</button>
-                       </div>
+                       </div> -->
                     </div>
                 </div>
                 <div class="col-12 col-md-7 mx-0">
@@ -121,7 +121,18 @@ get_header();?>
     </div>
     <div class="calculator-section py-5">
         <div class="container">
-            <div class="text-center py-3 py-md-5">
+       <div class="text-center py-3 py-md-5">
+            <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use Our Helpful Calculators To Crunch The Numbers</h3>
+        </div>
+
+           <div class="text-center">
+                <video  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" width="60%" height="100%" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+           </div>
+            <!-- <div class="text-center py-3 py-md-5">
                 <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Use Our Helpful Calculators To Crunch The Numbers</h3>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-around py-2 py-md-3" >
@@ -135,7 +146,7 @@ get_header();?>
             <div class="d-flex flex-column flex-md-row justify-content-around  py-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <button class="btn btn-calc mb-2 mb-md-0">Stamp Duty Calculator <i class="fas fa-calculator"></i></button>
                 <button class="btn btn-calc-light">Extra Repayment Calculator <i class="fas fa-calculator"></i></button>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="pillars-section pt-5 pb-0">
@@ -143,7 +154,7 @@ get_header();?>
             <div class="row">
                 <div class="col-12 col-md-8">
                     <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">What makes us different?</h3>
-                    <p class="  " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The 8 pillars of MLS Finance</p>
+                    <p class="pt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The 8 pillars of MLS Finance</p>
                     <div class="pillar-list">
                         <div class="rectangle d-flex flex-column flex-md-row align-items-center px-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             <div class="education px-5">
@@ -175,7 +186,7 @@ get_header();?>
                         </div>
                         <p class="pt-5 pb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">At MLS Finance. we teach you throughout the process so that once settled, you leave 
                         more educated. That means you come away from a phone call or meeting feeling 
-                        like you know more thaj you did going in ....</p>
+                        like you know more thaj you did going in.</p>
                         <button type="button" class="btn btn-warning">Learn More</button>
 
 
@@ -189,6 +200,56 @@ get_header();?>
             </div>
         </div>
     </div>
+    <div class="section-1 py-5 ">
+        <div class="container">
+            <div class="text-center pb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                <h3 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">No Two Clients are the same</h3>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">Each Client comes to MLS with their own complex situations. But we don't stop until we find a solution to have the clients acheive thier goals. Both in the short term and long term.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 ">
+                    <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="icon section1-icon  me-3">
+                            <h1 style="color:white; font-size:40px" class="fw-600">1100+</h1>
+                        </div>
+                        <div class=""  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                            <p>Total CLients Helped</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="icon section1-icon  me-3">
+                            <h1 style="color:white; font-size:40px" class="fw-600">78%</h1>
+                        </div>
+                        <div class=""  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                            <p>Repeat Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="icon section1-icon  me-3">
+                            <h1 style="color:white; font-size:40px" class="fw-600">96%</h1>
+                        </div>
+                        <div class=""  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                            <p>Loan Secured Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="icon section1-icon  me-3">
+                            <h1 style="color:white; font-size:40px" class="fw-600">150+</h1>
+                        </div>
+                        <div class=""  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                            <p>Total Loan Settled ($MIL)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
     <div class="customer-report pb-5 py-md-5">
         <div class="container">
             <div class="text-center py-5">
@@ -252,7 +313,7 @@ get_header();?>
             </div>
         </div>
     </div>
-    <div class="property-investment pt-5">
+    <!-- <div class="property-investment pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -267,8 +328,8 @@ get_header();?>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="articles py-5">
+    </div> -->
+    <!-- <div class="articles py-5">
         <div class="container">
             <div class="title text-center">
                 <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Our Latest Articles</h3>
@@ -323,6 +384,107 @@ get_header();?>
             
             </div>
         </div>
+    </div> -->
+    <div class="open-roles">
+        <div class="owl-carousel owl-theme" id="new-roles">
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="fw-600">First home buyers</h2>
+                                <ul>
+                                    <li>Best suited to:  First time home buyers</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="fw-600">Property Investment</h4>
+                                <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600">Something Else</h2>
+                                <ul>
+                                    <li>Best suited to: Bank lender or existing mortgage broker</li>
+                                    <li>Experience required: Min. 12 months in finance</li>
+                                    <li>Sales / Networking experience required: Yes</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4>Currently Open Roles</h4>
+                                <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-slide d-flex align-items-center cover" >
+                <div class="container-fluid">
+                    <div class="row justify-content-center justify-content-md-start">
+                        <div class="col-12 col-md-7 vector">
+                            <div class="owl-slider-text openroles-text ps-5">
+                                <h2 class="fw-600">MORTGAGE BROKER</h2>
+                                <ul>
+                                    <li>Best suited to: Bank lender or existing mortgage broker</li>
+                                    <li>Experience required: Min. 12 months in finance</li>
+                                    <li>Sales / Networking experience required: Yes</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="p-4">
+                                <h4>Currently Open Roles</h4>
+                                <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-7 vector">
+                    <div class="openroles-text ps-5">
+                        <h2 class="fw-600">MORTGAGE BROKER</h2>
+                        <ul>
+                            <li>Best suited to: Bank lender or existing mortgage broker</li>
+                            <li>Experience required: Min. 12 months in finance</li>
+                            <li>Sales / Networking experience required: Yes</li>
+                        </ul>
+                        <div class="d-flex">
+                            <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                            <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Join Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                   <div class="p-4">
+                        <h4>Currently Open Roles</h4>
+                        <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
+                   </div>
+                </div>
+            </div>
+        </div> -->
     </div>
     <div class="investment py-5">
         <div class="container">
