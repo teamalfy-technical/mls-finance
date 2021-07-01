@@ -62,38 +62,44 @@ get_header();?>
             <div class="row">
                 <div class="col-12 col-md-4 ">
                     <div class=" text-center align-item-baseline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        <div class="icon section1-icon  me-3">
+                        <div class="icon section1-icon pb-4  me-3">
+                            <a class="stretched-link" href="<?php echo site_url('/property')?>"></a>
                             <i style="color:#696871; background-color: #f0f0f0;" class="fa fa-home  "></i>
                         </div>
                         <div class="residential-lending"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                            <h5 class="fw-600">Residential Lending</h5>
+                            <h5 class="fw-600 pb-4">Residential Lending</h5>
                             <p>We provide residential real estates 
                             owners and purchases access to a 
                             variety of mortgage options</p>
+                            <a class="stretched-link" href="<?php echo site_url('/property')?>"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 ">
                     <div class="text-center " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <div class="icon section1-icon   me-3" >
+                        <div class="icon section1-icon pb-4 me-3" >
                             <i style="color:#696871;background-color:#f0f0f0; " class="far fa-chart-bar "></i>
+                            <a class="stretched-link" href="<?php echo site_url('/finance-vehicles')?>"></a>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                            <h5 class="fw-600">Investment Loans</h5>
+                            <h5 class="fw-600 pb-4">Investment Loans</h5>
                             <p>We communicate with you on every 
                             step of the way from application to 
                             settlement</p>
+                            <a class="stretched-link" href="<?php echo site_url('/finance-vehicles')?>"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 ">
                     <div class=" text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <div class="icon section1-icon   me-3">
+                        <div class="icon section1-icon pb-4  me-3">
                             <i style="color:#696871; background-color: #f0f0f0;" class="fas fa-file-invoice-dollar "></i>
+                            <a class="stretched-link" href="<?php echo site_url('/business-commercial')?>"></a>
                         </div>
                         <div class="residential-lending" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                            <h5 class="fw-600">Want to Refinance?</h5>
+                            <h5 class="fw-600 pb-4">Want to Refinance?</h5>
                             <p>Learn about refinancing, when to do it and what to do every step</p>
+                            <a class="stretched-link" href="<?php echo site_url('/business-commercial')?>"></a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +193,7 @@ get_header();?>
                         <p class="pt-5 pb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">At MLS Finance. we teach you throughout the process so that once settled, you leave 
                         more educated. That means you come away from a phone call or meeting feeling 
                         like you know more thaj you did going in.</p>
-                        <button type="button" class="btn btn-warning">Learn More</button>
+                        <button type="button" class="btn btn-secondary">Learn More</button>
 
 
                     </div>
@@ -392,12 +398,12 @@ get_header();?>
                     <div class="row justify-content-center justify-content-md-start">
                         <div class="col-12 col-md-7 vector">
                             <div class="owl-slider-text openroles-text ps-5">
-                                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="fw-600">First home buyers</h2>
+                                <h2 class="fw-600" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="fw-600">First Home Buyers</h2>
                                 <ul>
                                     <li>Best suited to:  First time home buyers</li>
                                 </ul>
                                 <div class="d-flex">
-                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-secondary mb-3 "><a class="round me-2" href=""></a>Learn More</button>
                                 </div>
                             </div>
                         </div>
@@ -415,20 +421,20 @@ get_header();?>
                     <div class="row justify-content-center justify-content-md-start">
                         <div class="col-12 col-md-7 vector">
                             <div class="owl-slider-text openroles-text ps-5">
-                                <h2 class="fw-600">Something Else</h2>
+                                <h2 class="fw-600">Commercial Investment</h2>
                                 <ul>
                                     <li>Best suited to: Bank lender or existing mortgage broker</li>
                                     <li>Experience required: Min. 12 months in finance</li>
                                     <li>Sales / Networking experience required: Yes</li>
                                 </ul>
                                 <div class="d-flex">
-                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-secondary mb-3 "><a class="round me-2" href=""></i></a>Learn More</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-5">
                             <div class="p-4">
-                                <h4>Currently Open Roles</h4>
+                                <h4  class="fw-600">Property Investment</h4>
                                 <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
                             </div>
                         </div>
@@ -440,20 +446,20 @@ get_header();?>
                     <div class="row justify-content-center justify-content-md-start">
                         <div class="col-12 col-md-7 vector">
                             <div class="owl-slider-text openroles-text ps-5">
-                                <h2 class="fw-600">MORTGAGE BROKER</h2>
+                                <h2 class="fw-600">Business Loans</h2>
                                 <ul>
                                     <li>Best suited to: Bank lender or existing mortgage broker</li>
                                     <li>Experience required: Min. 12 months in finance</li>
                                     <li>Sales / Networking experience required: Yes</li>
                                 </ul>
                                 <div class="d-flex">
-                                    <button   button class="btn btn-warning mb-3 "><a class="round me-2" href=""><i class="far fa-calendar-alt "></i></a>Learn More</button>
+                                    <button   button class="btn btn-secondary mb-3 "><a class="round me-2" href=""></a>Learn More</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-5">
                             <div class="p-4">
-                                <h4>Currently Open Roles</h4>
+                                <h4 class="fw-600">Property Investment</h4>
                                 <img src="<?php echo get_theme_file_uri('./images/pana.svg'); ?>" alt="">
                             </div>
                         </div>

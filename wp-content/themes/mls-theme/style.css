@@ -146,6 +146,16 @@ button:focus{
     /* color: #696871; */
 }
 
+.btn-secondary{
+    background-color: #CCD408;
+    color: #ffffff;
+    border-color: #ccd408;
+}
+
+.btn-secondary:hover{
+    background-color: #646804;
+}
+
 .btn-warning{
     background-color: #ffffff;
     color: #000000;
@@ -350,21 +360,24 @@ button:focus{
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    width: 73px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     margin: 5px 7px;
-    background: #D6D6D6;
+    background: #6c757d;
     display: block;
     /* -webkit-backface-visibility: visible; */
     transition: opacity .2s ease;
-    border-radius: 0rem;
+    border-radius: 1rem;
 }
 
 .owl-carousel .owl-dots,
 .owl-carousel .owl-nav {
     position: absolute;
-    left: 44rem;
-    bottom: 0rem;
+    left: 10rem;
+    bottom: 2rem;
+}
+.owl-dots{
+    left: 12rem;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #CCD408;
@@ -392,6 +405,10 @@ button:focus{
     width: 100%;
     border-radius: .9rem;
 
+}
+
+.socials a{
+    cursor: default;
 }
 
 .socials .fab{
@@ -441,7 +458,7 @@ button:focus{
 }
 
 .articles-section .fas, .far{
-    color: #CCD408 !important;
+    /* color: #CCD408 !important; */
 }
 
 .articles-section a{
@@ -502,7 +519,7 @@ button:focus{
     padding-top: 10rem;
 }
 .open-roles .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ffffff;
+    background:#CCD408;
 }
 
 .progress-bar{

@@ -78,18 +78,19 @@
                         <ul class="navbar-nav second-item ml-auto socials mt-0 mb-3 my-md-4 ">
                             <li class="nav-item "> 
                                 <a class="nav-link js-scroll-trigger" href="" target="blank" class="btn-floating btn-gplus mr-2">
-                                    <i class="fab fa-linkedin fa-2x"> </i>
+                                    <i style="color: #ccd408;" class="fab fa-linkedin fa-2x"> </i>
                                 </a>
                             </li>
                         
                             <li class="nav-item "> 
                                 <a class="nav-link js-scroll-trigger" href="" target="blank" class="btn-floating btn-gplus mr-2">
-                                    <i class="fab fa-instagram-square fa-2x "></i>
+                                    <i style="color: #696871;" class="fab fa-facebook fa-2x"></i>
                                 </a>
                             </li>
+
                             <li class="nav-item "> 
                                 <a class="nav-link js-scroll-trigger" href="" target="blank" class="btn-floating btn-gplus mr-2">
-                                    <i class="fab fa-facebook fa-2x"></i>
+                                    <i style="color: #ccd408;" class="fab fa-instagram-square fa-2x "></i>
                                 </a>
                             </li>
                         </ul>
